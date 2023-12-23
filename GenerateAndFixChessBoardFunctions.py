@@ -33,7 +33,7 @@ def initErrorList(chessBoard):
     chessPieces = ['pawn', 'knight', 'bishop', 'rook', 'queen', 'king']
 
     for i, j in chessBoard.items():
-        item = {i: j} # Making a dict to keep track of the specific thing
+        item = {i: j} # Making a dict to keep track of the specific piece
         findDiv = i.find('|')
 
         if len(i) != 3:
