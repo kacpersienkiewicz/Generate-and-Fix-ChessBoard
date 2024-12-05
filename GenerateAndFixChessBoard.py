@@ -2,8 +2,8 @@
 # and this will continue until the chessboard is valid.
 
 import pprint as pp
-
 import GenerateAndFixChessBoardFunctions as cbf
+import GenerateAndFixChessBoardVisualization as cbv
 
 chessBoard = cbf.generateChessBoard()
 
