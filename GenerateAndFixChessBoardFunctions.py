@@ -1,5 +1,4 @@
 # a collection of functions for the Generate and Fix Chess Board
-import pprint
 import random
 
 
@@ -173,7 +172,7 @@ def fixInvalidInt(pieceDict, errorList, chessBoard):
         keys = [i for i in chessBoard.keys()]
 
         if newAlgNot not in keys:
-            print(f'{newAlgNot} is not in the Board.')
+            print(f'{newAlgNot} is not on the Board.')
             break
 
     errorList, chessBoard = updateErrorsBoard(newPair, errorList, pieceTuple, chessBoard)
